@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  body {
+    @apply bg-deep_black-200 text-white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+}
