@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { computed } from 'vue'
 import appIcon from '@/assets/images/icon.png'
 
-const props = withDefaults(defineProps<{
+withDefaults(defineProps<{
   alt?: string
   size?: number
 }>(), {
